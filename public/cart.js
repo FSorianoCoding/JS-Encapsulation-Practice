@@ -64,7 +64,7 @@ function selectSandwich(sandwich) {
     nameInput.value = sandwich.name
 
     renderCart()
-    ingredientList.render()
+    ingredientList.renderIngredientList()  // render no longer global function, must be invoked as through ingredientList object.
 }
 
 // We'll use this function to save the sandwich, either

@@ -1,11 +1,11 @@
-// The array of ingredients the user can add to a sandwich
+//  The array of ingredients the user can add to a sandwich
 //  This will be updated after we fetch.
 const ingredientList = {
 
     ingredients : [],
 
     // Updates the DOM to display a list of ingredients
-    render: function() {
+    renderIngredientList: function() {
         const ingredientUl = document.querySelector('.ingredient-list');
 
         // Empty the ingredientList before adding any content to it.
